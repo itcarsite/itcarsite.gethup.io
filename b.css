@@ -1,0 +1,194 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.bac
+{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bac video{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+
+#nav
+{
+  position: relative;
+margin-top: -640px;
+width: 100%;
+width: 1600px;
+
+}
+
+
+ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 1500px;
+  left: 20%;
+  background:transparent ;
+  
+  z-index: 2;
+}
+
+li {
+  position: relative;
+  float: left;
+  z-index: 3;
+}
+
+li a {
+  position: relative;
+  display: block;
+  color: rgb(230, 10, 10);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 2;
+}
+
+li a:hover {
+  cursor: pointer;
+  box-shadow:0 0 20px 10px #ffffff;
+  transform: scale(1.3);
+}
+#e
+{
+  font-size:20px ;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #f7ff06;
+}
+#content
+{
+  position: relative;
+  width: 100%;
+ 
+  
+}
+
+
+#form
+{
+  width: 480px;
+  height: 580px;
+  position: relative;
+  margin-top: 110px;
+  background-color: #ffffff;
+  padding:5px;
+  left: -157%;
+  z-index: 2;
+  background: linear-gradient(to right,#f8f1f6,#3c3d3d);
+  border-radius: 20px;
+
+}
+#button
+{
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #5caed1f9;
+  border-radius: 30px;
+}
+.toggle-btn
+{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn
+{
+top: 0px;
+left: 0;
+position: absolute;
+width: 100px;
+height: 100%;
+background: linear-gradient(to right,#ec29df,#4358d2);
+border-radius: 30px;
+transition: .5s;
+
+
+}
+
+#input{
+width: 60%;
+width: 480px;
+height: 580px;
+position: relative;
+margin-top: 160px;
+background-color: #f0f8ff;
+padding:5px;
+z-index: 2;
+
+}
+
+.f
+{
+  width: 90%;
+  padding: 13px;
+  margin: 9 px;
+  background: transparent;
+}
+
+.submit-btn
+
+{
+ width: 85%;
+ padding: 10px 30px;
+ cursor: pointer;
+ display: block;
+ margin:auto;
+ margin-top:40%;
+ background: linear-gradient(to right,#ee5de5,#335598);
+border: 0;
+outline: none;
+border-radius: 30px;
+}
+
+#login
+{
+  position: relative;
+  left: 10px;
+}
+
+
+#jkl
+{
+  background: linear-gradient(to right,#e468e2,#5977d8);
+ 
+}
+
+
+#jkp
+{
+  background: linear-gradient(to right,#e05fd8,#4d54dc);
+ 
+}
+
+
+#jko
+{
+  background: linear-gradient(to right,#e83fce,#4b74d2);
+ 
+}

@@ -1,0 +1,413 @@
+
+.navnul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333;
+}
+
+.navn {
+  float: left;
+}
+
+.listlink {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listlink:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}  
+
+
+.nissanbody {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:black;
+}
+
+.home{
+  text-align:center;
+  overflow-x:hidden;
+  color:white;
+  font-size:3vw;
+  text-transform:uppercase;
+}
+
+
+
+.models{
+   padding:10px 30px;
+}
+
+
+.models img{
+   width:250px;
+   height:180px;
+   padding:10px;
+   transtion:1s;
+}
+
+.models img:hover{
+   transform:scale(1.1);
+}
+ 
+.hometext{
+  text-align:left;
+  color:white;
+  font-size:25px;
+}
+
+
+.banner-card{
+     background-image:url("../media/photopage1.webp");
+     height:500px;
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     position:relative;
+}   
+
+.banner-text{
+   positon:absolute;
+   top:10%;
+   color:white;
+   padding:20px;
+   font-size:20px;
+   text-transform:uppercase;
+}   
+
+.banner-text a{
+   background-color:#9B111E;
+   color:white;
+   padding:13px 25px;
+   text-align:center;
+   margin:50px 80px;
+}
+   
+
+.design {
+  positon:relatve;
+  text-align:left;
+  color:white;
+  font-size:26px;
+}
+
+.dc{
+  color:#A9A9A9;
+  font-size:32px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.nissanbody{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.nissanf{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footern1{
+	background-color: #24262b;
+    padding: 30px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/responsive/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+<!--nissanpage2-->
+.navnul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333;
+}
+
+.navn {
+  float: left;
+}
+
+.listlink1 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listlink1:hover {
+  background-color: #111;
+}
+
+
+ 
+ 
+
+
+.nissanbody2 {
+  background-size:cover;
+  background-repeat:no-repeat;
+   background-color:black;
+}
+
+.nissanc{
+    display:flex;
+    justfy-content:center;
+}
+
+.card{
+   background:#A9A9A9;
+   width:500px;
+   margin:15px;
+   border-radius:15px;
+  
+}
+   
+.card-image{
+    height:275px;
+    width:300pxpx;
+    margin-bottom:15px;  
+    background-repeat:no-repeat; 
+    background-size:cover;
+    border-radius:15px 15px 0 0; 
+}
+
+.car-1{
+   background-image:url("../media/sunny.jpg");
+}
+
+.car-2{
+   background-image:url("../media/juke.png");
+}
+ 
+.car-3{
+   background-image:url("../media/ariya.jpg");
+}
+  
+.car-4{
+   background-image:url("../media/patrol.jpg");
+}
+
+.car-5{
+   background-image:url("../media/qashqai.jpg");
+}
+
+.car-6{
+   background-image:url("../media/sentra.jpg");
+}
+
+.card:hover{
+   background-color:rgb(62,62,62);
+   color:white;
+   cursor: pointer;
+   transform:sacle(1.03);
+   transition:all is ease;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.nissanbody2{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.nissanf2{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footern2{
+	background-color: #24262b;
+    padding: 30px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/responsive/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 567px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.yearb {
+  background-color: #dcdcdc;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
