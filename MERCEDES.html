@@ -1,0 +1,209 @@
+<!Doctype html>
+<html>
+  <head>
+      <script src="../js/stylejavascript.js"></script>
+    <link rel="stylesheet" href="../css/style.css2.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <title>        project site          </title>
+     <meta charset = "utf_8">
+     <style>
+     body {margin:0 ;padding:0;font-family:Arial,Tahoma}                          
+     
+</style>
+  </head>
+ 
+  <body>
+    
+   
+
+
+     <div class =brandname>
+      <img src = " ../media/logow.jpg  " style="width:80px;height:80px;background-color:black;"> 
+         
+   </div>
+   <div class= nav>
+     <ul>
+     <li>   <a href="homepage.htm"style=text-decoration:none;background-color:white;padding:10px;" >HOME</a>     </li>
+       <li>  Model    </li>
+      <li>  Hatch backs </li>
+      <li>  Sedans      </li>
+     </ul>
+   </div>
+  
+
+<div class = suv >
+     
+     <h1> Hatch backs  </h1> 
+      <br>
+      
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../media/B-CLASS hatchback.jpeg" style="width:100%">
+  <div class="text">MODERN</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../media/mercedes benz.jpeg" style="width:100%">
+  <div class="text">COMFORT</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../media/hatck.jpeg" style="width:100%">
+  <div class="text">SAFETY</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<br>
+       <h3>  price EGP 695,000 </h3> 
+         <b>Comfort:
+         Sit back and relax.
+           The new B-Class sets a new benchmark in safe and comfortable everyday driving.</b><br><mark> Find out for yourself.</mark><br>
+     
+        <iframe width="800" height="400" src="https://www.youtube.com/embed/2oOA-KJ285Q" >
+       </iframe>
+
+</div> <br>
+  
+
+
+
+
+
+ <div class = sedan >
+   <h1> A-class sedan</h1> <br> <br>
+   <img src = " ../media/a class sedan.jpg " style="width:600px;height:300px;"> 
+   <img src = "../media/sedan 22.jpeg" style="width:300px;height:200px;"> 
+   <img src = "../media/sedan3.jpeg" style="width:200px;height:150px;">
+   <h3>price EGP 700,000 </h3> <br>
+  <b>
+ The new A-Class Sedan is fully focused on your safety.
+  </b><br>
+  <a href ="https://youtu.be/ddyDXvQ97_Q"style=color:#669999;text-decoration:none;">Review</a>
+ 
+ </div>
+<br>
+<div class = sedan1 >
+ <h1>E-class sedan </h1> <br> <br>
+   <img src = "../media/sedan e class.jpeg " style="width:600px;height:300px;"> 
+   <img src = "../media/sedan e .jpeg" style="width:300px;height:200px;"> 
+   <img src = "../media/e class sedan.jpeg" style="width:200px;height:150px;">
+   <h3>price EGP 1,240,000 </h3><br><br>
+
+ <iframe width="800" height="400" src="https://www.youtube.com/embed/hLkJF2Hx8r0">
+ </iframe>
+  
+ </div>
+ <br>
+
+
+
+<div class = new >
+   <h1>new-s-class </h1> <br> <br>
+    <img src = "../media/new.jpeg " style="width:600px;height:300px;"> 
+    <img src = "../media/new2.jpeg" style="width:300px;height:200px;"> 
+    <img src = "../media/new3.jpeg" style="width:200px;height:150px;"><br>
+    <h3> price EGP 5,450,000</h3>  <br>
+   <b>The new Mercedes-Maybach S-Class defines ultimate luxury like never before.<br>The highest-quality materials, excellent workmanship, outstanding comfort as well as innovative technologies<br>and your personal assistant in the form of the intelligent MBUX infotainment system herald a new era of driving.
+</b><br><br>
+<a href ="INDEX2.html"style=text-decoration:none;color:#669999;">CLICK FOR MORE ABOUT NEW S_CLASS</a>
+</div><br>
+ 
+
+  <footer class="footer">
+  	 <div class="footer1">
+  	 	<div class="footerrow">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">BMW</a></li>
+  	 				<li><a href="#">Nissan</a></li>
+  	 				<li><a href="#">Audi</a></li>
+  	 				<li><a href="#">Hyundai</a></li>
+                                        <li><a href="#">Porsche</a></li>
+  	 				<li><a href="#">Mercedes</a></li>
+  	 				<li><a href="#">Jeep</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</footer>
+
+
+
+
+
+</body> 
+</html>                        
